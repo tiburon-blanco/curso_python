@@ -2,10 +2,6 @@
 # Usar la funcion input() cuando se pide leer por TECLADO
 from re import A
 
-num1=0
-num2=0
-suma=0
-
 print("bienvenido chinguenguencha")
 print("ingresa un numero: ")
 num1=int(input())
