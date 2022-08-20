@@ -3,3 +3,8 @@
 # Luego imprimir cada variable en linea separadas
 a = type(True)
 print(a)
+a,b,c,d="Hola",25,"true",9
+print(a)
+print(b)
+print(c)
+print(d)
