@@ -4,4 +4,4 @@ min=float(input("Ingrese la cantidad de minutos: "))
 
 segundos=min*60
 
-print("La cantidad de segundos de los minutos ingresados es de:",segundos)s
+print("La cantidad de segundos de los minutos ingresados es de:",segundos)
