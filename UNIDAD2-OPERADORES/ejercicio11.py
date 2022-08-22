@@ -28,3 +28,9 @@ print("para preparar 3 camparis necesito 2 hielos por c/u, por lo tanto utilizo:
 
 print("Para hacer estos 7 tragos consumi un total de: ",q_hielo_total,"hielos. Me sobran por lo tanto: ",hielo_sobrante,"hielos.")
 
+#cantidad_hielos = (2*6) * 4
+#fernet = 5 * 3
+#campari = 3 * 2
+#hielos_restantes = cantidad_hielos - fernet - campari
+#print("La cantidad de hielos que sobran es: ", hielos_restantes)
+
