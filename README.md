@@ -1,6 +1,6 @@
 # Curso Python
 
-## UNIDAD1 - VARIABLE
+## UNIDAD 1 - VARIABLE
 
 - [x] Ejercicio1
 - [x] Ejercicio2
@@ -11,7 +11,7 @@
 - [x] Ejercicio7
 - [x] Ejercicio8
 
-## UNIDAD2 - OPERADORES
+## UNIDAD 2 - OPERADORES
 
 - [x] Ejercicio1
 - [x] Ejercicio2
