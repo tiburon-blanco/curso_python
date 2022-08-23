@@ -5,5 +5,5 @@
 
 peso=float(input("ingrese peso: "))
 altura=float(input("ingrese altura:"))
-IMC=int(peso/(altura/2))
+IMC=int(peso/altura)*2
 print("Su indice de masa corporal es: ",IMC)
