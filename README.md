@@ -15,7 +15,7 @@
 
 - [x] Ejercicio1
 - [x] Ejercicio2
-- [ ] Ejercicio3 (La fórmula esta mal)
+- [x] Ejercicio3
 - [x] Ejercicio4
 - [x] Ejercicio5
 - [x] Ejercicio6
@@ -23,4 +23,6 @@
 - [x] Ejercicio8
 - [x] Ejercicio9
 - [x] Ejercicio10
-- [x] Ejercicio11 (Ver legibilidad. Hay otro código debajo)
+- [x] Ejercicio11
+- [x] Ejercicio12
+- [x] Ejercicio13 (Linea 16 y 17 son asignaciones q estan demas)
