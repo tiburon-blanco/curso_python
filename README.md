@@ -37,3 +37,9 @@
 - [x] Ejercicio6
 - [x] Ejercicio7
 - [x] Ejercicio8
+
+## UNIDAD 4 - LISTAS
+
+- [x] Ejercicio1
+- [x] Ejercicio2
+- [x] Ejercicio3
