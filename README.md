@@ -26,3 +26,14 @@
 - [x] Ejercicio11
 - [x] Ejercicio12
 - [x] Ejercicio13 (Linea 16 y 17 son asignaciones q estan demas)
+
+## UNIDAD 3 - STRINGS
+
+- [x] Ejercicio1 (Sin espacios en blanco cuando se concatena)
+- [x] Ejercicio2
+- [x] Ejercicio3
+- [x] Ejercicio4
+- [x] Ejercicio5
+- [x] Ejercicio6
+- [x] Ejercicio7
+- [x] Ejercicio8
