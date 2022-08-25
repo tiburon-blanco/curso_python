@@ -4,3 +4,8 @@
 # Eliminar el elemento True de la lista
 # Luego eliminar el segundo elemento de la lista
 # Imprimir la lista para ver su contenido
+
+lista = [3, "HOLA", True, [2, 3, 6], "Mundo", 8]
+
+lista.remove(True)
+print(lista)
