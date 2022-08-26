@@ -15,4 +15,8 @@ print(lista)
 lista.extend([[7,2]])
 print(lista)
 
+print(len(lista))
+
+# la diferencia entre append y extend es que  append() agrega un elemento al final de la lista 
+# mientras que . extend() puede agregar varios elementos de una secuencia al final de la lista.
 

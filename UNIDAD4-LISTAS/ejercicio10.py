@@ -12,3 +12,5 @@ print(lista)
 
 lista.append([7,2])
 print(lista)
+
+print(len(lista))
