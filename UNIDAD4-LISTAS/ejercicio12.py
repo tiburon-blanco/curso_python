@@ -5,4 +5,5 @@
 
 lista = [14, 22.5, 15, 3.2, 2.1, 6]
 
-print(lista.sort())
+lista.sort(reverse=)
+print(lista)
