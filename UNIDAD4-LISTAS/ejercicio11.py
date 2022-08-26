@@ -8,3 +8,6 @@
 lista=[3, "HOLA", True, [2, 3, 6], "Mundo", 8]
 
 lista.extend([10])
+
+lista.extend([7,2])
+
