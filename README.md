@@ -55,3 +55,16 @@
 - [x] Ejercicio13
 - [x] Ejercicio14
 - [x] Ejercicio15
+
+## UNIDAD 5 - TUPLAS
+
+- [] Ejercicio1 
+- [] Ejercicio2
+- [] Ejercicio3
+- [] Ejercicio4
+- [] Ejercicio5
+- [] Ejercicio6
+- [] Ejercicio7
+- [] Ejercicio8
+- [] Ejercicio9
+- [] Ejercicio10
