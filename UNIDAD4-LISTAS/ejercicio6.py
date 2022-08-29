@@ -8,3 +8,4 @@ lista = [["agua", 7, True], [88, 21, 9]]
 print(len(lista))
 print(type(lista))
 
+# contiene dos elementos tipo listas
