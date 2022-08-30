@@ -9,5 +9,6 @@ letras = ["s", "e", "m", "a", "f", "o", "r", "o", "s"]
 tupla=tuple(letras)
 print(tupla)
 
+letra=(letras.index("s",4))
 
-print=(tupla.index("s"))
+print(letra)
