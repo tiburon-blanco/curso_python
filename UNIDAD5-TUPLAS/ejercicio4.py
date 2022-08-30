@@ -2,7 +2,7 @@
 # Dada la tupla: 
 # tupla = ((1, 2, 3), ("a", "b", "C"))
 # Responder sin programar       
-# Cuantos elementos tiene la tupla?   POSEE DOS ELEMENTOS
+# Cuantos elementos tiene la tupla?   POSEE DOS ELEMENTOS tipo string y entero
 # De que tipo es cada elemento?   tuple
 
 tupla = ((1, 2, 3), ("a", "b", "C"))
