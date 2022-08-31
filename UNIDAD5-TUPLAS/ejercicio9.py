@@ -3,6 +3,6 @@
 
 # la lista tiene el metodo extend y append y la tupla no. La tupla solo admite la busqueda, son inmutables, 
 
-metodos_tupla=input("Ingrese 2 metodos que tiene la lista y la tupla no: ") 
+metodos_tupla=("La lista tiene el metodo extend y append y la tupla no. La tupla solo admite la busqueda, son inmutables,") 
 
 print(metodos_tupla)
