@@ -69,3 +69,30 @@
 - [ ] Ejercicio9
 - [ ] Ejercicio10
 - [ ] Ejercicio11
+
+## UNIDAD 6 - SETS
+
+- [ ] Ejercicio1 
+- [ ] Ejercicio2
+- [ ] Ejercicio3
+- [ ] Ejercicio4
+- [ ] Ejercicio5
+- [ ] Ejercicio6
+- [ ] Ejercicio7
+- [ ] Ejercicio8
+- [ ] Ejercicio9
+
+
+## UNIDAD 7 - DICCIONARIOS
+
+- [ ] Ejercicio1 
+- [ ] Ejercicio2
+- [ ] Ejercicio3
+- [ ] Ejercicio4
+- [ ] Ejercicio5
+- [ ] Ejercicio6
+- [ ] Ejercicio7
+- [ ] Ejercicio8
+- [ ] Ejercicio9
+- [ ] Ejercicio10
+- [ ] Ejercicio11
