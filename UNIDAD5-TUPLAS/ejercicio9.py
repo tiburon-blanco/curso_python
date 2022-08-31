@@ -5,3 +5,4 @@
 
 metodos_tupla=input("Ingrese 2 metodos que tiene la lista y la tupla no: ") 
 
+print(metodos_tupla)
