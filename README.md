@@ -45,7 +45,7 @@
 - [x] Ejercicio3
 - [x] Ejercicio4
 - [x] Ejercicio5
-- [x] Ejercicio6 Falta responde que tipos de elementos tiene la lista. Poner con un comentario en python.
+- [x] Ejercicio6
 - [x] Ejercicio7
 - [x] Ejercicio8
 - [x] Ejercicio9
@@ -58,13 +58,14 @@
 
 ## UNIDAD 5 - TUPLAS
 
-- [ ] Ejercicio1 
-- [ ] Ejercicio2
-- [ ] Ejercicio3
-- [ ] Ejercicio4
-- [ ] Ejercicio5
-- [ ] Ejercicio6
-- [ ] Ejercicio7
-- [ ] Ejercicio8
+- [x] Ejercicio1 
+- [x] Ejercicio2
+- [x] Ejercicio3
+- [x] Ejercicio4
+- [x] Ejercicio5
+- [x] Ejercicio6
+- [x] Ejercicio7
+- [x] Ejercicio8
 - [ ] Ejercicio9
 - [ ] Ejercicio10
+- [ ] Ejercicio11
