@@ -7,8 +7,13 @@
 # Mostrar "intersection" en pantalla
 
 # Pregunta: a cual de los siguientes operadores corresponde "intersection"
-# A) &
+# A) & Rta, corresponde a este.
 # B) |
 # C) - 
 
 
+frutas1 = {"Manzana", "Pera", "Banana", "Durazno"}
+frutas2 = {"Melon", "Higo", "Pera"}
+
+intersection= frutas1.intersection(frutas2)
+print(intersection)
