@@ -8,6 +8,13 @@
 
 # Pregunta: a cual de los siguientes operadores corresponde "union"
 # A) &
-# B) |
+# B) | Rta: te corresponde.
 # C) -
 
+
+frutas = {"Manzana", "Pera", "Banana", "Durazno"}
+verduras = {"Lechuga", "Tomate"}
+
+verduleria=frutas.union(verduras)
+
+print(verduleria)
