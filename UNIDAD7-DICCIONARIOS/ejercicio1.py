@@ -7,3 +7,7 @@
 # telefonos = {'Martin': 221738293, 'Leo': 221343423, 'Juan': 2218323478}
 # Imprimir en pantalla el diccionario
 # Imprimir en pantalla el tipo
+
+telefonos = {'Martin': 221738293, 'Leo': 221343423, 'Juan': 2218323478}
+print(telefonos)
+print(type(telefonos))
