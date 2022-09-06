@@ -66,24 +66,35 @@
 - [x] Ejercicio6
 - [x] Ejercicio7
 - [x] Ejercicio8
-- [ ] Ejercicio9
-- [ ] Ejercicio10
-- [ ] Ejercicio11
+- [x] Ejercicio9
+- [x] Ejercicio10
+- [x] Ejercicio11
 
 ## UNIDAD 6 - SETS
 
-- [ ] Ejercicio1 
-- [ ] Ejercicio2
-- [ ] Ejercicio3
-- [ ] Ejercicio4
-- [ ] Ejercicio5
-- [ ] Ejercicio6
-- [ ] Ejercicio7
-- [ ] Ejercicio8
-- [ ] Ejercicio9
-
+- [x] Ejercicio1 
+- [ ] Ejercicio2 No es necesario crear una TUPLA y transformar a SET, directamnte crear el SET
+- [x] Ejercicio3
+- [ ] Ejercicio4 No es necesario crear una LISTA y transformar a SET, directamnte crear el SET
+- [x] Ejercicio5
+- [x] Ejercicio6
+- [x] Ejercicio7
+- [x] Ejercicio8
+- [x] Ejercicio9
 
 ## UNIDAD 7 - DICCIONARIOS
+
+- [x] Ejercicio1 
+- [x] Ejercicio2
+- [x] Ejercicio3
+- [x] Ejercicio4
+- [x] Ejercicio5
+- [x] Ejercicio6
+- [x] Ejercicio7
+- [x] Ejercicio8
+- [x] Ejercicio9 Falta responder. Importa el orden de conbinación?
+
+## UNIDAD 7 - CONDICIONALES
 
 - [ ] Ejercicio1 
 - [ ] Ejercicio2
