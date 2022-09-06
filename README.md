@@ -73,9 +73,9 @@
 ## UNIDAD 6 - SETS
 
 - [x] Ejercicio1 
-- [ ] Ejercicio2 No es necesario crear una TUPLA y transformar a SET, directamnte crear el SET
+- [ ] Ejercicio2 No es necesario crear una TUPLA y transformar a SET, directamente crear el SET
 - [x] Ejercicio3
-- [ ] Ejercicio4 No es necesario crear una LISTA y transformar a SET, directamnte crear el SET
+- [ ] Ejercicio4 No es necesario crear una LISTA y transformar a SET, directamente crear el SET
 - [x] Ejercicio5
 - [x] Ejercicio6
 - [x] Ejercicio7
