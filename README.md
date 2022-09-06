@@ -92,7 +92,7 @@
 - [x] Ejercicio6
 - [x] Ejercicio7
 - [x] Ejercicio8
-- [x] Ejercicio9 Falta responder. Importa el orden de conbinación?
+- [x] Ejercicio9 Falta responder. Importa el orden de combinación?
 
 ## UNIDAD 8 - CONDICIONALES
 
