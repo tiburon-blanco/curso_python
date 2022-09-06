@@ -94,7 +94,7 @@
 - [x] Ejercicio8
 - [x] Ejercicio9 Falta responder. Importa el orden de conbinación?
 
-## UNIDAD 7 - CONDICIONALES
+## UNIDAD 8 - CONDICIONALES
 
 - [ ] Ejercicio1 
 - [ ] Ejercicio2
@@ -107,3 +107,9 @@
 - [ ] Ejercicio9
 - [ ] Ejercicio10
 - [ ] Ejercicio11
+
+## UNIDAD 9 - BLUCLES - REPETICIONES
+
+## UNIDAD 10 - FUNCIONES
+
+## UNIDAD 11 - MODULOS
