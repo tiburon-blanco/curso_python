@@ -1,17 +1,15 @@
 # CONDICIONES
 # Repasar:
 
-# a == b        a y b son iguales?
-# a != b        a y b son distintos?
-# a > b         a es mayor que b?
-# a < b         a es menor que b?
-# a >= b        a es mayor o igual que b?
-# a <= b        a es menor o igual que b?
-# a and b       se cumple a y b
-# a or b        se cumple a o b
+# a == b        a y b son iguales? ## si
+# a != b        a y b son distintos? si
+# a > b         a es mayor que b? si
+# a < b         a es menor que b? si
+# a >= b        a es mayor o igual que b? si
+# a <= b        a es menor o igual que b? si
+# a and b       se cumple a y b si
+# a or b        se cumple a o b si
 # Not a         no se cumple a
-
-
 # Tablas de verdad
 
 
@@ -32,3 +30,6 @@
 # True      False       True
 # False     True        True
 # False     False       False
+
+
+print(-4*-4)
