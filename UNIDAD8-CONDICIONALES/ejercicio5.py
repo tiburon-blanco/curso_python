@@ -8,9 +8,15 @@
 
 peso=float(input("ingrese peso: "))
 altura=float(input("ingrese altura:"))
-IMC=int(peso/altura)*2
+IMC=float(peso/(altura*2))
 print("Su indice de masa corporal es: ",IMC)
 
 if IMC<18.5:
     print("Peso inferior al normal")
-    if 18.5 > IMC <=24.9
+if IMC>=18.5 and IMC<=24.9:
+        print("Peso  normal")
+if IMC>=25 and IMC<=29.9:
+        print("Peso superior al normal")
+if IMC>30:
+        print("Obesidad")
+   
