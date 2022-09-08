@@ -9,7 +9,7 @@ x=(input("Ingrese una letra: "))
 caracteres=len(x)
 
 if caracteres>1:
-    print("no se puede procesar el dato:")
+    print("no se puede procesar el dato, debe ingresar solo un caracter:")
 
 if caracteres==1:
     if x in vocales:
