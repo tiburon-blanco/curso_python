@@ -12,3 +12,26 @@
 
 # Escribir un programa que lea la puntuación del usuario e indique su nivel de rendimiento, 
 # así como la cantidad de dinero que recibirá el usuario.
+
+
+
+inaceptable = 0.0
+aceptable	= 0.4
+meritorio	= 0.6
+
+beneficios=1500
+nivel_seleccionado=0
+
+
+puntaje=float(input("ingrese su puntaje: "))
+
+if puntaje==inaceptable:
+    nivel_seleccionado=inaceptable
+if puntaje==aceptable:
+    nivel_seleccionado=aceptable
+if puntaje==meritorio:
+    nivel_seleccionado=meritorio
+
+calculo=nivel_seleccionado*beneficios
+
+print("los beneficios obtenidos son: ", calculo)
