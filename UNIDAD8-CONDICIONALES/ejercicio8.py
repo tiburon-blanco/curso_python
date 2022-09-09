@@ -13,11 +13,6 @@
 # Escribir un programa que lea la puntuación del usuario e indique su nivel de rendimiento, 
 # así como la cantidad de dinero que recibirá el usuario.
 
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 65b626728ba341b44ff543058c030d2fc2b158e5
 inaceptable = 0.0
 aceptable	= 0.4
 meritorio	= 0.6
