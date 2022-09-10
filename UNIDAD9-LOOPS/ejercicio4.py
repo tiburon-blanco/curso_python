@@ -6,3 +6,15 @@
 # ....
 
 # (USAR FOR con ENUMERATE y RANGE para obtener el indice)
+
+
+
+
+value = 5
+i = 0
+     
+for x in range(0,50,5):
+    print(value, "X", i, "=", x)
+    i= i + 1
+
+   
