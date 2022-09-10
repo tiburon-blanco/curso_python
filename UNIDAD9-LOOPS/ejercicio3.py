@@ -5,11 +5,9 @@
 # 10
 # 15
 # ....
-tabla=5
-i=0
-x=i*tabla
 
-for i in range(x):
-    print(x)
-    i+5
-    
+
+
+for i in range(0,30,5):
+    print(i)
+   
