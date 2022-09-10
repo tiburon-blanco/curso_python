@@ -5,3 +5,11 @@
 # 10
 # 15
 # ....
+tabla=5
+i=0
+x=i*tabla
+
+for i in range(x):
+    print(x)
+    i+5
+    
