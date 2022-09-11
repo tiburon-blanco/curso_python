@@ -8,5 +8,5 @@ frutas = {"pera", "banana", "manzana", "uva", "mango", "kiwi", "melon", "frutill
 
 for  i in frutas:
     if len(i) < 5:
-        print(i,i) 
+        print(i) 
       
