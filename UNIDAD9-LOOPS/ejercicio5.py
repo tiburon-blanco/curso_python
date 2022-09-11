@@ -5,6 +5,8 @@
 
 frutas = {"pera", "banana", "manzana", "uva", "mango", "kiwi", "melon", "frutilla", "naranja"}
 
-for i in frutas:
+
+for  i in frutas:
     if len(i) < 5:
-       print(i)
+        print(i,i) 
+      
