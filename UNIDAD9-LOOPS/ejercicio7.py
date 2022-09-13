@@ -22,3 +22,7 @@ for index, x in enumerate(lista):
 ## B)
 
 
+
+print("opcion B. Busqueda con Index")
+
+b=print(lista.index(valor))
