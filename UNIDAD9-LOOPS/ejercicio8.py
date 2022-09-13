@@ -14,12 +14,18 @@
 
 
 
+
 n = [4,6,8,1,6,15,5,20]
+seguir = True
+index = 0
+while seguir:
 
-i=0
-
-while
-
+    value = n[index]
+    print(value)
+    if value > 7:
+        seguir = False
+    index = index + 1
+    
 
 
         
