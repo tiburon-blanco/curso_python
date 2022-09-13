@@ -15,10 +15,9 @@ valor=int(input("ingrese por teclado un numero entero: "))
 
 for index, x in enumerate(lista):
     if (x==valor):
-        print (index)
-
-
-
+        print (index) 
+    
+   
 ## B)
 
 
@@ -26,3 +25,4 @@ for index, x in enumerate(lista):
 print("opcion B. Busqueda con Index")
 
 b=print(lista.index(valor))
+
