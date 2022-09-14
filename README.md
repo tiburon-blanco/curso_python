@@ -96,19 +96,31 @@
 
 ## UNIDAD 8 - CONDICIONALES
 
-- [ ] Ejercicio1 
-- [ ] Ejercicio2
-- [ ] Ejercicio3
-- [ ] Ejercicio4
-- [ ] Ejercicio5
-- [ ] Ejercicio6
-- [ ] Ejercicio7
-- [ ] Ejercicio8
-- [ ] Ejercicio9
-- [ ] Ejercicio10
-- [ ] Ejercicio11
+- [x] Ejercicio1 
+- [x] Ejercicio2
+- [x] Ejercicio3
+- [x] Ejercicio4
+- [x] Ejercicio5
+- [x] Ejercicio6
+- [x] Ejercicio7
+- [x] Ejercicio8
+- [x] Ejercicio9
+- [ ] Ejercicio10 Especificar si no puedo entrar porque es menor o le faltan vacunas
+- [ ] Ejercicio11 Comparar STRING con ==, no con IN. Acostubrarse a hacer el cálculo y después la impresión (print)
+         
 
 ## UNIDAD 9 - BLUCLES - REPETICIONES
+
+- [x] Ejercicio1 
+- [x] Ejercicio2
+- [x] Ejercicio3
+- [ ] Ejercicio4    Falto usar ENUMERATE
+- [ ] Ejercicio5    No se está contanto, usar una variable que haga de contador. Leer linea 3 del enunciado
+- [x] Ejercicio6    
+- [x] Ejercicio7
+- [x] Ejercicio8
+- [ ] Ejercicio9    Se puede mejorar haciendo un solo input, usando una variable boolean
+- [ ] Ejercicio10   Se debe volver a ingresar las 2 contraseñas, no solo la segunda
 
 ## UNIDAD 10 - FUNCIONES
 

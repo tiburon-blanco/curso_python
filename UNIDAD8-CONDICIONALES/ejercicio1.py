@@ -10,6 +10,10 @@
 # a and b       se cumple a y b si
 # a or b        se cumple a o b si
 # Not a         no se cumple a
+# a in b        a existe en b (b debe ser una lista, tupla, etc)
+# a not in b    a no existe en b (b debe ser una lista, tupla, etc)
+
+
 # Tablas de verdad
 
 
