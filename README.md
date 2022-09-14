@@ -114,7 +114,7 @@
 - [x] Ejercicio1 
 - [x] Ejercicio2
 - [x] Ejercicio3
-- [ ] Ejercicio4    Falto usar ENUMERATE
+- [ ] Ejercicio4    <font color="red">Falto usar ENUMERATE</font>
 - [ ] Ejercicio5    No se está contanto, usar una variable que haga de contador. Leer linea 3 del enunciado
 - [x] Ejercicio6    
 - [x] Ejercicio7
