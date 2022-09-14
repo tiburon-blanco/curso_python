@@ -120,7 +120,7 @@
 - [x] Ejercicio7
 - [x] Ejercicio8
 - [ ] Ejercicio9    Se puede mejorar haciendo un solo input, usando una variable boolean
-- [ ] Ejercicio10   Se debe volver a ingresar las 2 contraseña. no solo la segunda
+- [ ] Ejercicio10   Se debe volver a ingresar las 2 contraseñas, no solo la segunda
 
 ## UNIDAD 10 - FUNCIONES
 
