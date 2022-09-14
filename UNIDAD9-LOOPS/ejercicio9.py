@@ -3,9 +3,17 @@
 # Hasta que se ingrese un 0
 
 
+i=0
+
 x=int(input("ingrese un numero por pantalla: "))
 
-while x !=0:
-    x=int(input("numero equivocado, ingrese otro numero por pantalla: "))
+while True:
+    if x == i:
+        print("numero correcto: ")
+        break
+    else:
+        print("Ingreso el numero equivocado, por favor:")
+        x=int(input("ingrese un numero por pantalla: "))
 
-print("Acertaste, el numero correcto es cero")
+
+print("Ingreso el numero correcto, que es cero")

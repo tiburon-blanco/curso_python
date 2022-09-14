@@ -5,10 +5,13 @@
 # Caso contrario indicar que la ingreso mal para vovler a repetir el proceso.
 
 
-contraseña=(input("ingrese su contraseña: "))
+contrasenia_igual = True
 
-while contraseña != "salto evolutivo":
-    contraseña=(input("Contraseña equivocada, ingrese nuevamente la constraseña: "))
-   
+while contrasenia_igual:
+        contrasenia_1=(input("ingrese su contraseña: "))
+        contrasenia_2=(input("ingrese nuevamente su contraseña: "))
+        if contrasenia_1==contrasenia_2:
+           contrasenia_igual=False 
 
+  
 print("Contraseña Correcta")
