@@ -10,8 +10,6 @@ passwd= "citric"
 seguir=True   
 intentos=0
 
-  
-
 while seguir:
         usuario=input("ingrese su usuario: ")
         pasword=input("ingrese su passwd: ")
