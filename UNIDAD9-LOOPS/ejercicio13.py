@@ -11,12 +11,16 @@ contador=0
 seguir=True
 
 while seguir:
-    n=int(input("ingrese un numero: "))
-    lista.append(n)
-    
-    contador=+1
-    if numeros == contador:
-        seguir=False 
+    if numeros==contador:
+        seguir=False
+    else:
+        n=int(input("ingrese un numero: "))
+        lista.append(n)
+    contador= contador+1
+
+print(max(lista))
+
+ 
 
             
 
