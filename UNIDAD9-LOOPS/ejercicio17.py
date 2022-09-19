@@ -14,16 +14,27 @@ matriz=[ [1,2,4,7,2],
           [6,3,7,9,2],
           ]
 
-n=int(input("Ingrese un numeor a buscar en la matriz: "))
+n=int(input("Ingrese un numero a buscar en la matriz: "))
+
+n_1=(len(matriz))
+num_esp=[]
 
 seguir=True
 contador=0
 
 while seguir:
-    if n in matriz:
-        contador=+1
-    print(contador)
-else:
+    if contador==n_1:
         seguir=False
+    
+    if n in matriz [contador]:
+        num_esp.append(n)
+        contador=+1
+    
+print(len(num_esp))
+
+
+        
+
+
 
 
