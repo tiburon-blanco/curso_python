@@ -10,29 +10,34 @@
 
 matriz=[ [1,2,4,7,2],
           [7,9,1,7,8],
-          [4,5,1,3,3],
+          [7,5,1,7,3],
           [6,3,7,9,2],
           ]
 
-n=int(input("Ingrese un numero a buscar en la matriz: "))
+n=int(input("ingrese un numero por teclado: "))
 
-n_1=(len(matriz))
-num_esp=[]
-
-seguir=True
 contador=0
 
-while seguir:
-    if contador==n_1:
-        seguir=False
-    
-    if n in matriz [contador]:
-        num_esp.append(n)
-        contador=+1
-    
-print(len(num_esp))
+for i in range(len(matriz)):
+    for j in range(len(matriz[i])):
+        if matriz[i][j]==n:
+                contador=contador+1
+        
+print("La cantidad de elementos: ",n , " que hay en la matriz es de: ", contador)
 
 
+
+print("Contando almacenando en listas::")
+nn=[]
+
+for i in range(len(matriz)):
+    for j in range(len(matriz[i])):
+        if matriz[i][j]==n:
+            nn.append(n)
+        
+print("la cantidad de elementos: ", n, "que hay en la matriz es",  len(nn))
+  
+        
         
 
 
