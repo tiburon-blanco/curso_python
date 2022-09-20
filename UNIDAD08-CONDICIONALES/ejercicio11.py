@@ -45,7 +45,7 @@ if fruta != fruta_1 and fruta != fruta_2:
     print("Esta fruta no esta dentro de las promociones")
 
 
-if fruta_1 in fruta:
+if fruta_1 == fruta:
     if kg==1:
         print("El precio del kg de banana es: ", p_banana*kg)
     if kg==2:
@@ -53,7 +53,7 @@ if fruta_1 in fruta:
     if kg>=3:
         print("El precio del kg de banana es: ", p_banana*kg*desc_ban_3kg)
 
-elif fruta_2 in fruta:
+elif fruta_2 == fruta:
     if kg==1:
         print("El precio del kg de frutilla es: ", p_frutilla)
     if kg==2:
