@@ -12,7 +12,12 @@ edad=int(input("Corrobere e ingrese la edad del cliente: "))
 vacunas=int(input("corrobore e ingrese la cantidad de vacunas que posee el cliente: "))
 
 if edad>=edad_permititda and vacunas>=ingreso_vacunas:
-    print("Puede ingresar")
+    print("Puede ingresar porque cumple con ambos requisitos")
+elif  edad>=edad_permititda and vacunas<ingreso_vacunas:
+    print("No puede ingresar porque no posee la cantidad de vacunas requeridas")
+elif  edad<edad_permititda and vacunas>=ingreso_vacunas:
+    print("No puede ingresar porque no es mayor de edad")
+
 else:
     print("no cumple los requisitos legales y/o sanitarios de acceso al local")
 
