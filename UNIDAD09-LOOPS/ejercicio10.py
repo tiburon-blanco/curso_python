@@ -9,9 +9,11 @@ contrasenia_igual = True
 
 while contrasenia_igual:
         contrasenia_1=(input("ingrese su contraseña: "))
-        contrasenia_2=(input("ingrese nuevamente su contraseña: "))
+        contrasenia_2=(input("ingrese nuevamente su contraseña para confirmar: "))
         if contrasenia_1==contrasenia_2:
            contrasenia_igual=False 
+        else:
+                 print("contraseña incorrecta, ingrese nuevamente.")
 
   
 print("Contraseña Correcta")
