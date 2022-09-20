@@ -5,15 +5,15 @@
 
 i=0
 
-x=int(input("ingrese un numero por pantalla: "))
+
 
 while True:
+    x=int(input("ingrese un numero por pantalla: "))
     if x == i:
         print("numero correcto: ")
         break
     else:
         print("Ingreso el numero equivocado, por favor:")
-        x=int(input("ingrese un numero por pantalla: "))
-
+        
 
 print("Ingreso el numero correcto, que es cero")

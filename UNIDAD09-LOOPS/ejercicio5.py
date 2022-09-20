@@ -3,7 +3,7 @@
 # Contar la cantidad de frutas que tienen menos de 5 caracteres
 
 
-frutas = {"pera", "banana", "manzana", "uva", "mango", "kiwi", "melon", "frutilla", "naranja"}
+frutas = {"pera", "banana", "manzana", "uva", "mango", "kiwi", "melon", "frutilla", "naranja","uva","per","qwqw"}
 
 contador=1
 
