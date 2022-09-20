@@ -55,6 +55,7 @@
 - [x] Ejercicio13
 - [x] Ejercicio14
 - [x] Ejercicio15
+- [ ] Ejercicio16 No resulelto
 
 ## UNIDAD 5 - TUPLAS
 
@@ -73,7 +74,7 @@
 ## UNIDAD 6 - SETS
 
 - [x] Ejercicio1 
-- [ ] Ejercicio2 No es necesario crear una TUPLA y transformar a SET, directamente crear el SET
+- [ ] Ejercicio2 No es necesario importar nada
 - [x] Ejercicio3
 - [ ] Ejercicio4 No es necesario crear una LISTA y transformar a SET, directamente crear el SET
 - [x] Ejercicio5
@@ -92,7 +93,7 @@
 - [x] Ejercicio6
 - [x] Ejercicio7
 - [x] Ejercicio8
-- [x] Ejercicio9 Falta responder. Importa el orden de combinación?
+- [x] Ejercicio9
 
 ## UNIDAD 8 - CONDICIONALES
 
@@ -121,7 +122,21 @@
 - [x] Ejercicio8
 - [ ] Ejercicio9    Se puede mejorar haciendo un solo input, usando una variable boolean
 - [ ] Ejercicio10   Se debe volver a ingresar las 2 contraseñas, no solo la segunda
+- [x] Ejercicio11
+- [ ] Ejercicio12   No usar una lista, se debe unsar una variable para contar. Es mas performante.
+- [ ] Ejercicio13   No usar una lista, se debe usar una variable para el mayor.
+- [ ] Ejercicio14   No usar una lista, se debe usar una variable que acumule
+- [ ] Ejercicio15   No usar una lista, usar variables
+- [x] Ejercicio16   
+- [x] Ejercicio17   El de lista no es performante.
+- [x] Ejercicio18   
+- [x] Ejercicio19   
 
-## UNIDAD 10 - FUNCIONES
+## UNIDAD 10 - EXAMEN
 
-## UNIDAD 11 - MODULOS
+- [ ] Examen 1
+- [ ] Examen 2
+
+## UNIDAD 11 - FUNCIONES
+
+## UNIDAD 12 - MODULOS
