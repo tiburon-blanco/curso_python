@@ -4,7 +4,8 @@
 
 print("ingrese 6 numeros enteros: ")
 
-lista=[]
+positivo=0
+negativos=0
 contador=0 
 
 seguir=True
@@ -14,23 +15,19 @@ while seguir:
         seguir=False
     else:
         n=int(input("ingrese un numero: "))
-        lista.append(n)
+        if n>0:
+            positivo=positivo+n
+        elif n<0:
+            negativos=negativos+n
     contador= contador+1
 
-print(lista)
+print(positivo)
 
-negativos=[]
-positivos=[]
+print(negativos)
 
-for i in lista: 
-    if i< 0: 
-       negativos.append(i)
-    else:
-        positivos.append(i)    
+print("la suma de los numeros positivos arroja como resultado: ", positivo)
 
-print("la suma de los numeros negativos arroja como resultado: ", sum(negativos))
-
-print("el promedio de los numeros positivos es: ", sum(positivos)/ len(positivos))
+print("el promedio de los numeros negativos es: ", negativos)
 
 
 
