@@ -4,8 +4,8 @@
 
 numeros=int(input("Cuantos numeros va a introducir: "))
 
-lista=[]
 contador=0 
+promedio=0
 
 seguir=True
 
@@ -14,8 +14,8 @@ while seguir:
         seguir=False
     else:
         n=int(input("ingrese esos numeros: "))
-        lista.append(n)
+        promedio=promedio+n
     contador= contador+1
 
-promedio = sum(lista)/len(lista)
-print("El promedio de los numeros ingresados es: ", promedio)
+
+print("El promedio de los numeros ingresados es: ", promedio/numeros)
