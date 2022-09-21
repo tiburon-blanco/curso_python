@@ -5,7 +5,8 @@
 
 numeros=int(input("Cuantos numeros piensa ingresar: "))
 
-lista=[]
+maximo=0
+
 contador=0 
 
 seguir=True
@@ -15,10 +16,13 @@ while seguir:
         seguir=False
     else:
         n=int(input("ingrese un numero: "))
-        lista.append(n)
-    contador= contador+1
+        if n>maximo:
+            maximo=n
+        contador= contador+1
 
-print(max(lista))
+
+
+print(maximo)
 
  
 
