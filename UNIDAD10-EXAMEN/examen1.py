@@ -47,9 +47,7 @@ productos={ 1640: ["Mayonesa",100],
             }
 
 contador_clientes=0
-nombre_comprador=""
 hay_cliente= True
-lista_compradores={}
 prod_vendidos={}
 b_monto_maximo_cliente=0
 b_nombre_monto_maximo=""
