@@ -34,9 +34,6 @@
 # C) Diccionarios con codigo y cantidad.
 
 
-from math import prod
-from multiprocessing import Value
-
 
 productos={ 1640: ["Mayonesa",100], 
             1641: ["Dulce de lecha",120], 
@@ -54,57 +51,62 @@ productos={ 1640: ["Mayonesa",100],
 contador_clientes=0
 
 nombre_comprador=""
-monto_compra_total=0
+
 
 hay_cliente= True
 
-tiene_producto=True
-
-tiene_otro_producto=True
 
 lista_compradores={}
 
 prod_vendidos={}
 
 
+b_monto_maximo_cliente=0
+
+b_nombre_monto_maximo=""
+
 # producto=["Aceite", 80]
 
 while hay_cliente:
         nombre=input("ingrese el nombre del cliente: ")
         monto_esta_compra=0
+        tiene_producto=True
+        contador_clientes=contador_clientes+1
         while tiene_producto:
             cod_prod=int(input("Que codigo de producto lleva: "))
-            producto=productos[cod_prod]
-            if productos.get(cod_prod) is not None:
-                cantidad=int(input("ingrese la cantidad de este producto que va a llevar: "))
+            if cod_prod in productos:
+                producto=productos[cod_prod]
+                cantidad=int(input("ingrese la cantidad de " + producto[0] + " que va a llevar: "))
                 precio_producto= producto[1]
                 monto_compra_prod=cantidad*precio_producto
-                monto_compra_total=monto_compra_total + monto_compra_prod
                 monto_esta_compra=monto_compra_prod+monto_esta_compra
-                prod_vendidos[cod_prod]=monto_compra_prod
+                acumulados= prod_vendidos[cod_prod] if cod_prod in prod_vendidos else 0
+                prod_vendidos[cod_prod]= acumulados + cantidad             
                 print ("El total de esta compra  hasta el momento es: ",monto_esta_compra)
-                tiene_otro_producto=input("tiene algun otro producto: ")   
-            if tiene_otro_producto=="NO":
-                print ("El total de las compras acumuladas hasta el momento es: ",monto_compra_total)
-                lista_compradores[nombre]=monto_esta_compra
-                print(lista_compradores)
-                print(prod_vendidos)
-                contador_clientes= contador_clientes+ 1 
-                print("El total de clientes hasta el momento es de: : ", contador_clientes)
-                comprador_que_mas_gasto = max(lista_compradores, key = lista_compradores.get , )
-                print("El cliente que mas ha comprado hasta el momento es: ", comprador_que_mas_gasto)
-                producto_mas_vendido = max(prod_vendidos, key = prod_vendidos.get)
-                print("El productgo que mas se ha vendido hasta el momento es: ", producto_mas_vendido)
-
-
-                # recorrer diccionario de compradores y traer el que haya gastado mas
-                # recorrer diccionario productos vendidos y traer el mayor
-                break
+                tiene_otro_producto=input("Tiene algun otro producto (S/N): ")   
+                if tiene_otro_producto.upper()=="N":
+                    tiene_producto=False
+                
             else:
-                print("El codigo ingresado no existe, ingres nuevamente")   
+                print("El codigo ingresado no existe, ingres nuevamente") 
+        if  monto_esta_compra>b_monto_maximo_cliente:
+            b_monto_maximo_cliente=monto_esta_compra
+            b_nombre_monto_maximo= nombre
 
-print("El total de clientes hasta el momento es de: : ", contador_clientes)
-print("")
+        hay_mas_clientes=input("Hay algun otro cliente? S/N")    
+        if hay_mas_clientes.upper()== "N":
+            hay_cliente=False
+
+
+print("informe final")
+print("enunciado A: la cantidad de personas atendidas es: ", contador_clientes)
+print("enunciado B: la persona que mas gasto es: ", b_nombre_monto_maximo, " su monto fue de: ", b_monto_maximo_cliente)
+print (prod_vendidos)
+k=0
+for i in prod_vendidos:
+    print (prod_vendidos[i])
+
+print("enunciado C: la persona que mas gasto es: ", b_nombre_monto_maximo, " su monto fue de: ", b_monto_maximo_cliente)
 
 
 
@@ -126,3 +128,14 @@ print("")
         
         # else:
         #      print("El codigo ingresado no existe, ingres nuevamente")            
+
+        # print ("El total de las compras acumuladas hasta el momento es: ",monto_compra_total)
+        #             lista_compradores[nombre]=monto_esta_compra
+        #             print(lista_compradores)
+        #             print(prod_vendidos)
+        #             contador_clientes= contador_clientes+ 1 
+        #             print("El total de clientes hasta el momento es de: : ", contador_clientes)
+        #             comprador_que_mas_gasto = max(lista_compradores, key = lista_compradores.get , )
+        #             print("El cliente que mas ha comprado hasta el momento es: ", comprador_que_mas_gasto)
+        #             producto_mas_vendido = max(prod_vendidos, key = prod_vendidos.get)
+        #             print("El productgo que mas se ha vendido hasta el momento es: ", producto_mas_vendido)

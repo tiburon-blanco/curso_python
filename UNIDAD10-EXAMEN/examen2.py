@@ -14,3 +14,22 @@
 
 # Cree un sistema donde se registren accidentes para que al final del mes 
 # el intendente pueda saber en que esquinas deba cocolar los 3 semáforos.
+
+matriz = [
+           [1.6,1,1,1,1]
+           [2,2,2,2,2]
+           [3,3,3,3,3]
+           [4,4,4,4,4]
+           [5,5,5,5,5]
+          ]
+
+print(matriz)
+
+contador=0
+
+for i in range(len(matriz)):
+    for j in range(len(matriz[i])):
+        if matriz[i][j]==True:
+            contador=contador+1
+
+print(contador)
