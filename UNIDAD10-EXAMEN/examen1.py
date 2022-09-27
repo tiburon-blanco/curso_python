@@ -33,8 +33,6 @@
 # B) Variable o diccionario(nombre, productos)
 # C) Diccionarios con codigo y cantidad.
 
-
-
 productos={ 1640: ["Mayonesa",100], 
             1641: ["Dulce de lecha",120], 
             1642: ["Aceite",80], 
@@ -49,23 +47,12 @@ productos={ 1640: ["Mayonesa",100],
             }
 
 contador_clientes=0
-
 nombre_comprador=""
-
-
 hay_cliente= True
-
-
 lista_compradores={}
-
 prod_vendidos={}
-
-
 b_monto_maximo_cliente=0
-
 b_nombre_monto_maximo=""
-
-# producto=["Aceite", 80]
 
 while hay_cliente:
         nombre=input("ingrese el nombre del cliente: ")
@@ -99,43 +86,19 @@ while hay_cliente:
 
 
 print("informe final")
-print("enunciado A: la cantidad de personas atendidas es: ", contador_clientes)
-print("enunciado B: la persona que mas gasto es: ", b_nombre_monto_maximo, " su monto fue de: ", b_monto_maximo_cliente)
-print (prod_vendidos)
-k=0
-for i in prod_vendidos:
-    print (prod_vendidos[i])
+print("A: la cantidad de personas atendidas es:", contador_clientes)
+print("B: la persona que mas gasto es:", b_nombre_monto_maximo, " su monto fue de:", b_monto_maximo_cliente)
 
-print("enunciado C: la persona que mas gasto es: ", b_nombre_monto_maximo, " su monto fue de: ", b_monto_maximo_cliente)
+key_mayor_producto_vendido=0
+value_mayor_producto_vendido=0
+for key in prod_vendidos:
+    value = prod_vendidos[key]
+    if value > value_mayor_producto_vendido:
+        key_mayor_producto_vendido=key
+        value_mayor_producto_vendido = value
 
 
+producto = productos[key_mayor_producto_vendido];
+p = producto[0]
+print("C: El producto mas vendido es:", p)
 
-    # clientes_en_fila=input("ingrese si hay mas gente en la fila SI O NO: " )
-    # if clientes_en_fila==gente_esperando:
-    #     print("Ingrese a la caja")
-    # elif clientes_en_fila==sin_gente:
-    #     seguir:False
-       
-        # while seguir:
-        #     nombre=input("ingrese el nombre del cliente: ")
-        #     cod_prod=int(input("Que codigo de producto lleva: "))       
-        # if cod_prod in productos:
-        #     cantidad=int(input("ingrese la cantidad de este producto que va a llevar: "))
-        #     compra=compra+cantidad*100  # (multiplicar por segundo elemento del value de la lista)
-        #     carrito=carrito+compra
-        # if carrito==0:
-        #     seguir=False
-        
-        # else:
-        #      print("El codigo ingresado no existe, ingres nuevamente")            
-
-        # print ("El total de las compras acumuladas hasta el momento es: ",monto_compra_total)
-        #             lista_compradores[nombre]=monto_esta_compra
-        #             print(lista_compradores)
-        #             print(prod_vendidos)
-        #             contador_clientes= contador_clientes+ 1 
-        #             print("El total de clientes hasta el momento es de: : ", contador_clientes)
-        #             comprador_que_mas_gasto = max(lista_compradores, key = lista_compradores.get , )
-        #             print("El cliente que mas ha comprado hasta el momento es: ", comprador_que_mas_gasto)
-        #             producto_mas_vendido = max(prod_vendidos, key = prod_vendidos.get)
-        #             print("El productgo que mas se ha vendido hasta el momento es: ", producto_mas_vendido)
