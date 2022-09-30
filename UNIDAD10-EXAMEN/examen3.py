@@ -32,6 +32,8 @@ venta_chancho=0
 
 venta= True
 
+# for 1-5
+
 while venta:
     stock_pato=int(input("ingrese el stock de patos a la venta que hay: "))
     stock_gallina=int(input("ingrese el stock de gallinas a la venta que hay: "))
@@ -47,7 +49,7 @@ while venta:
             print("La cantidad demanda supera el stock, no puede comprar mas de: ", stock_pato)
     compra_gallina=input("Ingrese S/N si quiere comprar gallinas: ")
     if compra_gallina.upper() == "S":
-        cantidad_gallina=int(input("ingrese la cantidad de patos que quiere: "))
+        cantidad_gallina=int(input("ingrese la cantidad de gallinas que quiere: "))
         if cantidad_gallina<=stock_gallina:
             venta_gallina=cantidad_gallina*precio_gallina
             stock_gallina=stock_gallina-cantidad_gallina
@@ -67,7 +69,15 @@ while venta:
     if hay_clientes.upper()== "N":
         venta=False
 
+
+
     print("el monto total de su compra es de: ", venta_pato + venta_gallina + venta_chancho, )
+
+    print("lA cantidad de patos vendidos es de: ", cantidad_pato, "y el monto es de ", venta_pato)
+
+    print("lA cantidad de gallinas vendidas es de: ", cantidad_gallina, "y el monto es de ", venta_gallina)
+
+    print("lA cantidad de chanchos vendidos es de: ", cantidad_chancho, "y el monto es de ", venta_chancho)
     
     venta=False
     
