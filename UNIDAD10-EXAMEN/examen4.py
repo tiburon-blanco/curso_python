@@ -19,18 +19,16 @@ for i in range(5):
     stock_chancho = stock_chancho + int(input("Ingrese el stock de chanchos del dia:  " + dias[i]))
 
     while hay_cliente:
-        hay_cliente == input("ingrese S/N si hay o no clientes: ")
-        if hay_cliente == "S":
+        hay_cliente = input("ingrese S/N si hay o no clientes: ")
+        if hay_cliente =="S":
             venta=True
             while venta:
                 tipo = ''
                 tipo_animal_correcto = True
                 while tipo_animal_correcto:
-                    tipo = input("Pato (P), Gallina (G), Chancho (C)")
+                    tipo = input("Que animal desea comprar: Pato (P), Gallina (G), Chancho (C): ")
                     tipo_animal_correcto = True if tipo not in tipo_animal else False
-
                     cantidad = int(input("Que cantidad necesita?"))
-            
                     if tipo == 'P':
                         hay_stock = (stock_pato - cantidad) > 0
                         if hay_stock:
@@ -38,7 +36,7 @@ for i in range(5):
                             precio = cantidad * precio_pato
                             monto_total_pato = monto_total_pato + precio
                             cantidad_animales = cantidad_animales + 1
-                        print("El monto de su compra de patos es: ", precio)
+                            print("El monto de su compra de patos es: ", precio)
                     if tipo == 'G':
                         hay_stock = (stock_gallina - cantidad) > 0
                         if hay_stock:
@@ -46,7 +44,7 @@ for i in range(5):
                             precio = cantidad * precio_gallina
                             monto_total_gallina = monto_total_gallina + precio
                             cantidad_animales = cantidad_animales + 1
-                        print("El monto de su compra de gallina es: ", precio)
+                            print("El monto de su compra de gallina es: ", precio)
                     if tipo == 'C':
                         hay_stock = (stock_chancho - cantidad) > 0
                         if hay_stock:
@@ -55,10 +53,13 @@ for i in range(5):
                             monto_total_chancho = monto_total_chancho + precio
                             cantidad_animales = cantidad_animales + 1
                             print("El monto de su compra de chanchos es: ", precio)
-
+                        
+                    compra=input("Desea hacer otra compra S/N:  ")
+                    if compra == "N":  
+                        venta ==False     
         else:
             hay_cliente: False
-            break
+            
 
     
      
@@ -68,3 +69,4 @@ print("Monto total Gallina: ", monto_total_gallina)
 print("Monto total Chancho: ", monto_total_chancho)
 monto_total = monto_total_pato + monto_total_gallina + monto_total_chancho
 print("Monto total: ", monto_total)
+
