@@ -1,0 +1,1 @@
+# Crear un función que calcule el area de un rectangulo
