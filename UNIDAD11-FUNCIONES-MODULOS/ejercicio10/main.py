@@ -12,3 +12,6 @@
 # Nombre: Martin Leonardo Antolini
 # DNI: 30834970
 # Martin8308
+
+# Usar funciones para todo lo que se te acurra.
+# Las funciones deben estar definidas en otro archivo
