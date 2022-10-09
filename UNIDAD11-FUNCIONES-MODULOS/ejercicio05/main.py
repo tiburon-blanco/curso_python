@@ -14,6 +14,7 @@
 email=input("ingrese su correo electronico para verificar su validez: ")
 correo=email
 
+
 def validacioncorreo(correo):
     if "@" in email:
         print("el correo es valido")
