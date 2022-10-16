@@ -6,7 +6,8 @@
 # Si un socio tuviera más de un apellido, el usuario sólo ingresará uno.
 # Se debe validar que el número de DNI tenga 7 u 8 dígitos. 
 # En caso contrario, el programa debe dejar al usuario en un bucle hasta que ingrese un DNI correcto.
-# Por cada socio se debe imprimir su identificador único, el cual estará formado por: el primer nombre, la cantidad de letras del apellido y los primeros 3 dígitos de su DNI. 
+# Por cada socio se debe imprimir su identificador único, el cual estará formado por: el primer nombre, 
+# la cantidad de letras del apellido y los primeros 3 dígitos de su DNI. 
 # 
 # Ejemplo:
 # Nombre: Martin Leonardo Antolini
