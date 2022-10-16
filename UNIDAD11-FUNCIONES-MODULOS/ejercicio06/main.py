@@ -2,7 +2,8 @@
 
 def area_rectangulo(b,a):
     area= (b*a)/2
-    print ("El area del rectangulo es: ", area)
+    return area
 
+area_rectangulo(10,30)
 
-area_rectangulo(12,20)
+print("el area del rectangulo es", area_rectangulo(5,8))
