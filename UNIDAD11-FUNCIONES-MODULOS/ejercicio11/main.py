@@ -13,7 +13,7 @@ productos={ 1001: ["Producto 1", 10 , 100],
 # Stock
 # 
 # Llega los clientes y pueden "COMPRAR" o "DEVOLVER" el producto
-# Cada cliente hace una acción y solo comprar 1 producto
+# Cada cliente hace una acción y solo puede comprar 1 producto
 # En cada caso (Compra o devolución) le dicen al vendedor el código del producto y la cantidad
 # Crear 2 funciones "comprar" y "devolver" que le permita vender el producto, avisar si no hay stock
 
