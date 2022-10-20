@@ -1,4 +1,5 @@
-# Escribir un programa que permita al usuario obtener un identificador para cada uno de los socios de un club. 
+# Escribir un programa que permita al usuario obtener un identificador para cada uno de los socios de un
+# club. 
 # Para eso ingresará nombre completo y número de DNI de cada socio, 
 # indicando que finalizará el procesamiento mediante el ingreso de un nombre vacío.
 # Precondición: el formato del nombre de los socios será: nombre apellido. 
@@ -16,3 +17,25 @@
 
 # Usar funciones para todo lo que se te acurra.
 # Las funciones deben estar definidas en otro archivo
+
+print("Ingreso de datos de usuario para darse de alta")
+
+
+def registro_usuario(nom,ape,doc):
+
+    
+    nombre_completo= input(str("Ingrese su nombre: "))
+    nom = nombre_completo
+    
+    apellido=input(str("ingrese su primer apellido: "))
+    ape = apellido
+    
+    
+    documento=input(int("ingrese su numero de Documento: "))
+    doc=documento
+
+    datos = (nom ++ len(ape) ++ doc)
+
+    return(datos)
+
+registro_usuario()
