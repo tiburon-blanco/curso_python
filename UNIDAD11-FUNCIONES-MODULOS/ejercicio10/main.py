@@ -20,22 +20,31 @@
 
 print("Ingreso de datos de usuario para darse de alta")
 
+def registro_usuario():
 
-def registro_usuario(nom,ape,doc):
-
+    nombre= input("Ingrese su nombre: ")
+        
+    apellido=input("ingrese su primer apellido: ")
+        
+    dni=input("ingrese su numero de Documento: ")
     
-    nombre_completo= input(str("Ingrese su nombre: "))
-    nom = nombre_completo
-    
-    apellido=input(str("ingrese su primer apellido: "))
-    ape = apellido
-    
-    
-    documento=input(int("ingrese su numero de Documento: "))
-    doc=documento
+    datos = { "nombre": nombre, "apellido": apellido, "DNI": dni } 
 
-    datos = (nom ++ len(ape) ++ doc)
+    return datos
 
-    return(datos)
 
-registro_usuario()
+def crear_identificador(dato):
+    # Martin 8 308
+    id1 = dato["nombre"]
+
+    id2 = str(len(dato["apellido"]))
+
+    id3 = dato["DNI"][0:3]
+
+    return id1 + id2 + id3
+
+dato = registro_usuario()
+
+identificador = crear_identificador(dato)
+
+print(identificador)
