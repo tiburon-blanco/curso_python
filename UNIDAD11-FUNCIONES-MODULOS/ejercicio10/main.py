@@ -18,15 +18,26 @@
 # Usar funciones para todo lo que se te acurra.
 # Las funciones deben estar definidas en otro archivo
 
+from principal10 import *
+
+
 print("Ingreso de datos de usuario para darse de alta")
-
-
 
 seguir= True
 
 while seguir:
-    registro_usuario()
-    crear_identificador(dato)
-    continuar=input("Desea ingresar un nuevo usuario: S/N")
-    if continuar== "N":
-        seguir:False
+    continuar=input("Desea ingresar un nuevo usuario: S/N: ")
+    if continuar == "S":
+        
+        registro_usuario()
+        crear_identificador(dato)
+
+        dato = registro_usuario()
+
+        identificador = crear_identificador(dato)
+
+        print(identificador)
+    elif continuar == "N":
+        seguir = False
+
+print("no hay usuarios para ingresar.") 
