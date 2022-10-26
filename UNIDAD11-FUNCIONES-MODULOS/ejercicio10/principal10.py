@@ -25,4 +25,4 @@ dato = registro_usuario()
 
 identificador = crear_identificador(dato)
 
-print(identificador)
+print(identificador)@
