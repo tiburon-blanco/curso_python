@@ -8,9 +8,9 @@ def dnivalido():
     dni = input("ingrese su dni: ")
 
     if len(dni) >= 7 and len(dni) <= 8:
-        print("El dni ingresado es verdadero")
+            print("El dni ingresado es verdadero")
     else:
-        print("El dni ingresado es invalido")
+            print("El dni ingresado es invalido")
 
     return dni
 
