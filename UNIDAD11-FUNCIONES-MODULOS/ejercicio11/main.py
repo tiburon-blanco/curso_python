@@ -6,7 +6,6 @@ productos={ 1001: ["Producto 1", 10 , 100],
             1004: ["Producto 4", 20 , 100], 
             1005: ["Producto 5", 22 , 100], 
 }
-
 # Diccionario con el código y el value un lista con:
 # Nombre del producto
 # Precio
@@ -18,3 +17,25 @@ productos={ 1001: ["Producto 1", 10 , 100],
 # Crear 2 funciones "comprar" y "devolver" que le permita vender el producto, avisar si no hay stock
 
 # Manejar la lista de productos y las funciones en otro módulo (Archivo)
+
+# Existe producto booleano
+
+# comprar  // # hay stock
+# devolver
+
+codigo_p: input("ingrese el codigo de producto que desea comprar: ")
+
+def comprar(cod, cant):
+    
+    if codigo_p in productos:
+        cantidad: int(input("ingrese la cantidad que desea comprar: "))
+
+
+        if cantidad > productos{codigo_p}
+
+
+        
+# def devolver(cod, cant):
+#     codigo_p: input("ingrese el codigo de producto que desea devolver: ")
+#     if codigo_p in productos:
+        
