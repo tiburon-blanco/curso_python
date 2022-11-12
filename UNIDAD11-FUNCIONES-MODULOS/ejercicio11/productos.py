@@ -22,14 +22,15 @@ def ver_stock(codigo):
     return None
 
 def comprar(codigo, cantidad):
-    if existe_producto(codigo):
-        if hay_stock(codigo, cantidad):
-            productos[codigo][2]= productos[codigo][2] - cantidad
-            
-        else:
-            return False
-    
-    else:
-        return False
+    productos[codigo][2]= productos[codigo][2] - cantidad
+    return productos[codigo]
 
+def devolver(codigo, cantidad):
+    productos[codigo][2]= productos[codigo][2] + cantidad
+    return productos[codigo]
+
+def ver_productos():
+    return productos
+               
+    
 
