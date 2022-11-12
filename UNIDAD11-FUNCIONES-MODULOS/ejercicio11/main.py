@@ -61,7 +61,7 @@ while seguir:
 
 print("Stock final: ")
 
-p = ver_productos()
+p= ver_productos()
 
 
 for i in range(len(p)):
