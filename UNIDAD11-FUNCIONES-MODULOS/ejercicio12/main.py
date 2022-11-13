@@ -9,7 +9,8 @@ from func12 import *
 
 seguir = True
 
-# mayores={}
+ver_mayores=mayores
+ver_menores=menores
 
 # menores={}
 
@@ -22,9 +23,9 @@ while seguir:
     if cola == "N": 
         seguir = False
 
-print("la lista de menores es: ", menores)
+print("la lista de menores es: ", ver_menores)
 
-print("la lista de mayores es: ", mayores)
+print("la lista de mayores es: ", ver_mayores)
 
 
 
