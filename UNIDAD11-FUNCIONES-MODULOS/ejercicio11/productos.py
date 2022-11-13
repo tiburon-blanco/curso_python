@@ -8,18 +8,18 @@ productos={ 1001: ["Producto 1", 10 , 100],
 def existe_producto(codigo):
     return codigo in productos
       
+def ver_stock(codigo):
+    if existe_producto(codigo):
+        producto = productos[codigo]
+        return producto[2]
+    return None
+
 def hay_stock(codigo, cantidad):
     stock = ver_stock(codigo)
     if stock is not None:
         if cantidad <= stock:
             return True
     return False
-
-def ver_stock(codigo):
-    if existe_producto(codigo):
-        producto = productos[codigo]
-        return producto[2]
-    return None
 
 def comprar(codigo, cantidad):
     productos[codigo][2]= productos[codigo][2] - cantidad
