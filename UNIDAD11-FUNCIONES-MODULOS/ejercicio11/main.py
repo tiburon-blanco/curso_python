@@ -61,10 +61,11 @@ while seguir:
 
 print("Stock final: ")
 
+
 p= ver_productos()
 
 
-for i in range(len(p)):
+for i in p:
     producto = p[i]
     print ("el producto: ",  producto[0], "tiene stock de: ", producto[2], "cantidad.")
         

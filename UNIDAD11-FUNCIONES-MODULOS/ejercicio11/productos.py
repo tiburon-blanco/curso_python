@@ -6,6 +6,7 @@ productos={ 1001: ["Producto 1", 10 , 100],
 }
 
 def existe_producto(codigo):
+
     return codigo in productos
       
 def ver_stock(codigo):
