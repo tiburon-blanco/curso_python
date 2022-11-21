@@ -9,9 +9,9 @@ letra = input('Introduce una letra por favor: ')
 vocal=es_vocal(letra)
 
 if vocal == True:
-    print ("la letra ingresada es una vocal.")
+    print ("la letra ingresada es una vocal: ", vocal)
 else:
-    print("La letra ingresada NO es una vocal.")
+    print("La letra ingresada NO es una vocal: ", vocal)
 
 
 
