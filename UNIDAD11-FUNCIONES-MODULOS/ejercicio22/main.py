@@ -5,4 +5,9 @@
 # *********
 # ******* 
 
+from fun22 import*
 
+lista=[1,8,3,10,5,8,3,1]
+
+x=procedimiento_histograma(lista)
+print(x)
