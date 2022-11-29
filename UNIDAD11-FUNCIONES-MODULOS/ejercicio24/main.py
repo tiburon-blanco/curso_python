@@ -2,6 +2,10 @@
 # que tome una lista de palabras 
 # y devuelva la mas larga.
 
-# lista_palabras=["martin", "roberto","nabucodonosor", "virgilio", "Beatriz"]
+from fun24 import *
 
-# def mas_larga(lista_palabras)
+lista_palabras=["martin", "roberto","nabucodonosor", "virgilio", "Beatriz"]
+
+
+print(mas_larga(lista_palabras))
+

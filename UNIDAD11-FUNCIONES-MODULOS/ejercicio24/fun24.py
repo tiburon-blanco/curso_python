@@ -1,14 +1,28 @@
 
-lista  = ["1","123456","1234567891"]
 
-def  mas_larga (lista):
-    mas_larga = " "
+def mas_larga(lista):
+    palabra_mayor = 0
+    palabra_mas_larga= None
     for i in lista:
-        if len(i) > len(mas_larga):
-            mas_larga=i
-        return mas_larga
+        if len(i) > palabra_mayor:
+            palabra_mayor = len(i)
+            palabra_mas_larga = i
+    return palabra_mas_larga
 
-print (mas_larga ( lista ))
+
+
+
+
+# def  mas_larga (lista):
+#     palabra_mayor = 0
+#     palabra_mas_larga= None
+#     for i in lista:
+#         if len(i) > palabra_mayor:
+#             palabra_mayor = len(i)
+#             palabra_mas_larga = i
+#         return palabra_mas_larga
+
+# print (mas_larga ( lista ))
 
 
 
@@ -21,5 +35,3 @@ print (mas_larga ( lista ))
 
 	# print ( palabra_mostrar )
 
-
-print (mas_larga ( lista ))
