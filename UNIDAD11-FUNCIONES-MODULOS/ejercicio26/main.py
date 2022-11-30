@@ -1,7 +1,8 @@
 # EXAMEN PILA (LIFO)
 # Vamos a crear un programa para trabajar con una pila. 
 # Una pila es una estructura de datos que nos permite guardar un conjunto de variables. 
-# La característica fundamental es que el último elemento que se añade al conjunto es el primero que se puede sacar.
+# La característica fundamental es que el último elemento que se añade 
+# al conjunto es el primero que se puede sacar.
 
 # Para representar una pila vamos a utilizar una lista de cadenas de caracteres.
 
