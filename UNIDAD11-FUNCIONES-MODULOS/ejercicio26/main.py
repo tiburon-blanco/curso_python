@@ -24,3 +24,33 @@
 # Longitud de la pila
 # Mostrar pila
 # Salir
+
+
+from ui import screen
+
+continuar = True
+
+while continuar:
+    screen.clean()
+    screen.menu()
+
+    option = int(input())
+
+    if option == 1:
+        print("OP1")
+        input()
+
+    if option == 2:
+        print("OP2")
+        input()
+
+    if option == 3:
+        print("OP3")
+        input()
+
+    if option == 4:
+        print("OP4")
+        input()
+
+    if option == 5:
+        continuar = False
