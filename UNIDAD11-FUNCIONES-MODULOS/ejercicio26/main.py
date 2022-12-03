@@ -25,6 +25,7 @@
 # Mostrar pila
 # Salir
 
+from db import pila 
 
 from ui import screen
 
@@ -37,19 +38,20 @@ while continuar:
     option = int(input())
 
     if option == 1:
-        print("OP1")
-        input()
+        print("1-Añadir elemento a la pila.")
+
+        elemento=input("agregar un elemento:")
 
     if option == 2:
-        print("OP2")
+        print("2-Sacar elemento de la pila")
         input()
 
     if option == 3:
-        print("OP3")
+        print("3-Longitud de la pila.")
         input()
 
     if option == 4:
-        print("OP4")
+        print("4-Mostrar pila")
         input()
 
     if option == 5:
