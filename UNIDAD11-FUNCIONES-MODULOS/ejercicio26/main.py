@@ -26,10 +26,14 @@
 # Salir
 
 from db import pila 
+pila = []
+
+from principal import *
 
 from ui import screen
 
 continuar = True
+
 
 while continuar:
     screen.clean()
@@ -37,22 +41,33 @@ while continuar:
 
     option = int(input())
 
-    if option == 1:
+    if option == 1:  # añadir
         print("1-Añadir elemento a la pila.")
+        if longitud_pila(pila) >= 10:
+            print("La pila ya esta completa")
+            
+        if longitud_pila(pila)< 10:
+            elementos=input("agregar elemento:")
+            AgregarAPila(elementos,pila)
+            print("la pila ahora posee: ", longitud_pila(pila), "elementos." )
+            print(pila)
 
-        elemento=input("agregar un elemento:")
-
-    if option == 2:
+    if option == 2: # sacar
         print("2-Sacar elemento de la pila")
-        input()
+        if longitud_pila(pila) > 1:
+            pila.pop(-1)
+            print(pila)
+        else:
+            print("Ya se encuentra vacia")
+        
 
-    if option == 3:
-        print("3-Longitud de la pila.")
-        input()
+    if option == 3: # longitud
+        print("La longitud de la pila es de", longitud_pila(pila), "elementos.")
+        
 
     if option == 4:
-        print("4-Mostrar pila")
-        input()
+        print("4-Mostrar pila", VerPila(pila))
+        
 
     if option == 5:
         continuar = False
