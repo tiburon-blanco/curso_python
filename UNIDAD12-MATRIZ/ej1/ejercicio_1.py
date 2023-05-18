@@ -15,15 +15,18 @@ filas = int(input("ingrese la cantidad de filas de la matriz: "))
 columnas = int(input("ingrese la cantidad de columnas de la matriz: "))
 
 
-def crear_matriz(x, i):
+def crear_matriz(fil, col):
     matriz = []
-    for f in range(x):
-        for c in range(i):
-            print(random.randint(1, 2), end=' ')
+    for f in range(fil):
+        fila = []
+        for c in range(col):
+            numero = random.randint(1, 2)
+            fila.append(numero)
+            print(numero, end=' ')
         print('')
+        matriz.append(fila)
     return matriz
 
 
-matriz_creada = crear_matriz(filas, columnas)
-
-print(matriz_creada)
+matriz = crear_matriz(filas, columnas)
+print(matriz)
