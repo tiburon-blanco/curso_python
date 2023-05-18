@@ -1,3 +1,6 @@
+import random
+import collections
+
 ## armar una matriz bidimensonial de 10*10 y que aleatoriamente mediante un algoritmo introduzca 0 y 1 y despues poder consultar cuantos 0 y 1 hay?##
 
 # 1- crear una matriz
@@ -7,13 +10,20 @@
 
 print("1-________ CREAR UNA MATRIZ_________________")
 
-matriz = []
 
 filas = int(input("ingrese la cantidad de filas de la matriz: "))
 columnas = int(input("ingrese la cantidad de columnas de la matriz: "))
 
 
-for f in range(filas):
-    for c in range(columnas):
-        print(0, end=' ')
-    print('')
+def crear_matriz(x, i):
+    matriz = []
+    for f in range(x):
+        for c in range(i):
+            print(random.randint(1, 2), end=' ')
+        print('')
+    return matriz
+
+
+matriz_creada = crear_matriz(filas, columnas)
+
+print(matriz_creada)
