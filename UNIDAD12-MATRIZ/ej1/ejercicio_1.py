@@ -1,3 +1,4 @@
+from def_ej1 import crear_matriz
 import random
 from collections import Counter
 
@@ -13,22 +14,6 @@ print("1-________ CREAR UNA MATRIZ_________________")
 
 filas = int(input("ingrese la cantidad de filas de la matriz: "))
 columnas = int(input("ingrese la cantidad de columnas de la matriz: "))
-
-
-def crear_matriz(fil, col):
-    matriz = []
-    for f in range(fil):
-        fila = []
-        for c in range(col):
-            numero = random.randint(1, 2)
-            fila.append(numero)
-            print(numero, end=' ')
-        print('')
-        matriz.append(fila)
-    return matriz
-
-
-print("MATRIZ CREADA")
 
 matriz = crear_matriz(filas, columnas)
 
