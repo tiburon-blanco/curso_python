@@ -1,6 +1,4 @@
 from def_ej1 import crear_matriz
-import random
-from collections import Counter
 
 ## armar una matriz bidimensonial de 10*10 y que aleatoriamente mediante un algoritmo introduzca 0 y 1 y despues poder consultar cuantos 0 y 1 hay?##
 
