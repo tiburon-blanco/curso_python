@@ -1,0 +1,8 @@
+f = open("archivo.txt", "r")
+# print(f.readlines())
+print(f.read(10))
+print(f.tell())
+f.seek(20)
+print(f.tell())
+print(f.read(15))
+f.close()
