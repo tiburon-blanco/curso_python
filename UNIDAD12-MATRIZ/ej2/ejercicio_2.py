@@ -26,8 +26,9 @@ print("se colocara el numero 1 en el 10 porciento de las posicionees de la matri
 
 coordenadas_aleatorias = random.sample(range(x*y), cantidad_a_colocar)
 
-resultado = random.randint(0, x)
-print(resultado)
+fila_aleatoria = random.randint(0, x)
+columna_aleatoria = random.randint(0, y)
+print(fila_aleatoria + columna_aleatoria)
 
 
 print("-------------3- INGRESO DE PÓSICION X E Y VERIFICAR SI EN ESA POSICION ESTA EL 1----------------")
