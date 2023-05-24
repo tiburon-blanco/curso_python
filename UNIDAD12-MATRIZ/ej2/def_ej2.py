@@ -1,3 +1,6 @@
+import random
+
+
 def c_matriz(x, y):
     matriz = []
     for f in range(x):

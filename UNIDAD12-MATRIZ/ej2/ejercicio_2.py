@@ -17,20 +17,39 @@ print("-------------1- CREAR MATRIZ DE 0---------------")
 
 matriz = c_matriz(x, y)
 
-print("-------------2- COLOCAR ALEATORIAMENTE EN 5 POSICIONES UN NUMERO 1---------------")
+print("-------------2- COLOCAR ALEATORIAMENTE UN NUMERO 1---------------")
 
 numero = 1
 cantidad_a_colocar = round((x*y)*0.1)
 print("se colocara el numero 1 en el 10 porciento de las posicionees de la matriz en total serian: ",
       cantidad_a_colocar, "veces.")
 
-coordenadas_aleatorias = random.sample(range(x*y), cantidad_a_colocar)
 
-fila_aleatoria = random.randint(0, x-1)
-columna_aleatoria = random.randint(0, y)
-print(fila_aleatoria)
-print(columna_aleatoria)
+def coordenadas_remplazo(c):
+    coordenadas = []
+    for i in range(c):
+        fila_aleatoria = random.randint(0, x-1)
+        columna_aleatoria = random.randint(0, y-1)
+        coordenadas.append([fila_aleatoria, columna_aleatoria])
+    return coordenadas
+
+
+resultado_reemplazos = coordenadas_remplazo(cantidad_a_colocar)
+print(resultado_reemplazos)
+
+
+reemplazo_1 = (resultado_reemplazos[0])
+print(reemplazo_1)
+u = reemplazo_1[0][1]
+
+print(u)
+
+
+# coordenada = resultado_reemplazos[]
+# print("lalsals", coordenada)
 
 
 print("-------------3- INGRESO DE PÓSICION X E Y VERIFICAR SI EN ESA POSICION ESTA EL 1----------------")
+
+
 print("TIENE 5 INENTOS Y A POSTERIOR MUESTRA LA MATRIZ---------------")
