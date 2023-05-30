@@ -15,9 +15,10 @@ y = int(input("ingreses la cantidad de columnas: "))
 print("-------------1- CREAR MATRIZ DE 0---------------")
 
 
+
 matriz = c_matriz(x, y)
 
-print("-------------2- COLOCAR ALEATORIAMENTE UN NUMERO 1---------------")
+print("-------------2- DETERMINAR ALEATORIAMENTE POSICIONES A REEMPLAZAR---------------")
 
 numero = 1
 cantidad_a_colocar = round((x*y)*0.1)
@@ -36,13 +37,62 @@ def coordenadas_remplazo(c):
 
 resultado_reemplazos = coordenadas_remplazo(cantidad_a_colocar)
 print(resultado_reemplazos)
+# de aca obtengo las posiciones a reemplazar por 1
 
 
-reemplazo_1 = (resultado_reemplazos[0])
-print(reemplazo_1)
-u = reemplazo_1[0][1]
+# convirtiendo_coordenadas= resultado_reemplazos[0]
 
-print(u)
+# print(convirtiendo_coordenadas)
+
+
+# desempaqueto la lista para que me de las dos posiciones de cada uno y poder acceder a x e y  y reemplazarlo por un 1
+
+# pos_x, pos_y= convirtiendo_coordenadas
+
+# x=pos_x
+# y=pos_y
+
+# print(x,y)
+
+# matriz[x][y]= numero
+
+# print(matriz)
+
+
+# seguir=True
+contador=0
+
+
+# while seguir:
+#     if contador <= cantidad_a_colocar:
+#         convirtiendo_coordenadas=resultado_reemplazos[contador]
+#         pos_x, pos_y= convirtiendo_coordenadas
+#         matriz[pos_x][pos_y]=numero
+#         contador=+1
+#     if contador > cantidad_a_colocar:
+#         seguir=False
+# print(matriz)
+  
+        
+ 
+print("-------------3- NUEVA MATRIZ CON NUMEROS REEMPLAZADOS---------------")
+
+        
+for contador in range(cantidad_a_colocar):
+    if contador < cantidad_a_colocar:
+        convirtiendo_coordenadas = resultado_reemplazos[contador]
+        pos_x, pos_y = convirtiendo_coordenadas
+        matriz[pos_x][pos_y] = numero
+    else:
+        break
+        
+ 
+for fila in matriz:
+    print(fila)
+
+
+
+
 
 
 # coordenada = resultado_reemplazos[]
@@ -52,4 +102,21 @@ print(u)
 print("-------------3- INGRESO DE PÓSICION X E Y VERIFICAR SI EN ESA POSICION ESTA EL 1----------------")
 
 
-print("TIENE 5 INENTOS Y A POSTERIOR MUESTRA LA MATRIZ---------------")
+
+
+seguir=True
+intentos=0
+
+while seguir:
+    if intentos== 2:
+        seguir=False
+    ingrese_X= int(input("ingrese una coordenada fila: "))
+    ingrese_y= int(input("ingrese una coordenada columna: "))
+    if matriz[ingrese_X] [ingrese_y] == 0:
+        intentos+=1
+        print("en esta posicion hay un 0")
+    else:
+        print("en esta posicion hay uno uno.")
+
+
+print("Finalizo el juego---------------")
