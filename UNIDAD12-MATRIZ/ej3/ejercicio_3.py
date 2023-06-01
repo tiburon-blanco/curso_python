@@ -32,7 +32,8 @@ def coordenadas_remplazo(x):
     return coordenadas
 
 
-coordenadas
+coordenadas = coordenadas_remplazo(2)
+print(coordenadas)
 
 
 print("3- Ingresar coordenadas de misiles")
