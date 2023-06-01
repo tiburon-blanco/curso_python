@@ -23,15 +23,6 @@ for fila in tablero:
 print("2-____________________PONER DOS BARCOS ALEATORIAMENTE____________")
 
 
-def coordenadas_remplazo(x):
-    coordenadas = []
-    for i in range(x):
-        fila_aleatoria = random.randint(0, x-1)
-        columna_aleatoria = random.randint(0, x-1)
-        coordenadas.append([fila_aleatoria, columna_aleatoria])
-    return coordenadas
-
-
 coordenadas = coordenadas_remplazo(2)
 print(coordenadas)
 
