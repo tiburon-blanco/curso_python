@@ -26,5 +26,11 @@ print("2-____________________PONER DOS BARCOS ALEATORIAMENTE____________")
 coordenadas = coordenadas_remplazo(2)
 print(coordenadas)
 
+barco_1 = coordenadas[0]*[2]
+barco_2 = coordenadas[1]*2
+
+print(barco_1)
+print(barco_2)
+
 
 print("3- Ingresar coordenadas de misiles")
