@@ -26,10 +26,13 @@ print("2-____________________PONER DOS BARCOS ALEATORIAMENTE____________")
 coordenadas = coordenadas_remplazo(2)
 print(coordenadas)
 
-barco_1 = coordenadas[0]*[2]
+barco_1 = coordenadas[0]
+barco_1_1 = barco_1 + barco_1
+
 barco_2 = coordenadas[1]*2
 
 print(barco_1)
+print(barco_1_1)
 print(barco_2)
 
 
