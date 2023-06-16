@@ -31,6 +31,7 @@ class Coche():
     #     self.__ruedas = ruedas
 
     def __chequeo_interno(self):
+
         print("realizando chequeo interno")
 
         self.gasolina = "ok"
@@ -43,6 +44,9 @@ class Coche():
 
         else:
             return False
+
+    def asa(self):
+        return
 
 
 miCoche = Coche()
