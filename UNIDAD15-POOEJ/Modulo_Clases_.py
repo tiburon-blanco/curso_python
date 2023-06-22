@@ -2,10 +2,25 @@ class Vehiculo():
     def __init__(self, marca, color, litros):
         self.marca = marca
         self.color = color
-        self.nasta = litros
+        self.litros = litros
+
+    def avanzar(self, distancia):
+        self.distancia_recorrida += distancia
+        return
+
+    def autonomia(self):
+        return
 
 
-Auto = Vehiculo("toyota", "rojo", 100)
+class Auto(Vehiculo):
+    def autonomia(self):
+        return super().autonomia()
 
 
-print(Auto.marca, Auto.color, Auto.nasta)
+class Moto(Vehiculo):
+    def autonomia(self):
+        return super().autonomia()
+
+
+class Camion():
+    def autonomia(self):
