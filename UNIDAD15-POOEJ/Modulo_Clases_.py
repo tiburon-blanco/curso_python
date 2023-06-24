@@ -4,23 +4,41 @@ class Vehiculo():
         self.color = color
         self.litros = litros
 
-    def avanzar(self, distancia):
-        self.distancia_recorrida += distancia
-        return
+    def avanzar(self):
+        self.avanzar = True
 
-    def autonomia(self):
-        return
+    def consumo(self, avanzar)
 
 
-class Auto(Vehiculo):
-    def autonomia(self):
-        return super().autonomia()
+class Auto (Vehiculo):
+    def consumo(self):
 
 
-class Moto(Vehiculo):
-    def autonomia(self):
-        return super().autonomia()
+auto1 = Auto("vw", "azul", 60)
+
+print(auto1)
 
 
-class Camion():
-    def autonomia(self):
+Moto = (Vehiculo)
+
+Camion = (Vehiculo)
+
+
+class Pista():
+    def __init__(self, tipo, metros):
+        self.tipo = tipo
+        self.metros = metros
+
+
+class Carrera():
+    def __init__(self):
+
+    def agregar_vehiculos():
+
+    def inicio(self):
+
+
+pista = Pista("circular", 500)
+
+print("La pista es: ", pista.tipo,
+      "y posee un recorrido de: ", pista.metros, " metros")
