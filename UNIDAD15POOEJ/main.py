@@ -1,4 +1,4 @@
-from clases import *
+from UNIDAD15POOEJ.clases.auto import Auto
 
 auto=Auto("Vw","Azul",100)
 

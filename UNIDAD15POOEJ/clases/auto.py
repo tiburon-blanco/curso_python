@@ -1,4 +1,5 @@
-import Vehiculo
+from UNIDAD15POOEJ.clases.vehiculo import Vehiculo
+
 
 class Auto(Vehiculo):
     
