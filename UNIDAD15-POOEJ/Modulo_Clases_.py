@@ -1,44 +1,45 @@
-class Vehiculo():
-    def __init__(self, marca, color, litros):
-        self.marca = marca
-        self.color = color
-        self.litros = litros
+# class Vehiculo():
+#     def __init__(self, marca, color, litros):
+#         self.marca = marca
+#         self.color = color
+#         self.litros = litros
 
-    def avanzar(self):
-        self.avanzar = True
+#     def avanzar(self):
+#         self.avanzar = True
 
-    def consumo(self, avanzar)
-
-
-class Auto (Vehiculo):
-    def consumo(self):
+#     def consumo(self, avanzar):
+#         pass
 
 
-auto1 = Auto("vw", "azul", 60)
-
-print(auto1)
-
-
-Moto = (Vehiculo)
-
-Camion = (Vehiculo)
+# class Auto (Vehiculo):
+#     def consumo(self):
 
 
-class Pista():
-    def __init__(self, tipo, metros):
-        self.tipo = tipo
-        self.metros = metros
+# # auto1 = Auto("vw", "azul", 60)
+
+# # print(auto1)
 
 
-class Carrera():
-    def __init__(self):
+# Moto = (Vehiculo)
 
-    def agregar_vehiculos():
-
-    def inicio(self):
+# Camion = (Vehiculo)
 
 
-pista = Pista("circular", 500)
+# class Pista():
+#     def __init__(self, tipo, metros):
+#         self.tipo = tipo
+#         self.metros = metros
 
-print("La pista es: ", pista.tipo,
-      "y posee un recorrido de: ", pista.metros, " metros")
+
+# class Carrera():
+#     def __init__(self):
+
+#     def agregar_vehiculos():
+
+#     def inicio(self):
+
+
+# pista = Pista("circular", 500)
+
+# print("La pista es: ", pista.tipo,
+#       "y posee un recorrido de: ", pista.metros, " metros")
