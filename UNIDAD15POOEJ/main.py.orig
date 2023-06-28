@@ -1,9 +1,0 @@
-<<<<<<< HEAD
-from modules.auto import Auto
-=======
-from UNIDAD15POOEJ.clases.auto import Auto
->>>>>>> 6fe058f9dc3a31f563277cfb13423570a14882c0
-
-auto=Auto("Vw","Azul",100)
-
-print(auto.ver_color())

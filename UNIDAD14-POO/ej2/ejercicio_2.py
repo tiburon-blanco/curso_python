@@ -1,5 +1,5 @@
 # HERENCIA________________
-class Vehiculos():
+class MVehiculos():
 
     def __init__(self, marca, modelo):
 
@@ -24,7 +24,7 @@ class Vehiculos():
               self.enmarcha, "\nAcelerando: ", self.acelera, "\nFrenando: ", self.frena)
 
 
-class Moto(Vehiculos):
+class Moto(MVehiculos):
     hwilli = ""
 
     def willi(self):
