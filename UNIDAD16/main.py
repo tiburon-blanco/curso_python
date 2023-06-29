@@ -1,5 +1,6 @@
-from modules.auto import Auto
-from modules.carrera import Carrera
+from UNIDAD16.modules.auto import Auto
+from UNIDAD16.modules.carrera import Carrera
+
 
 print("1- PREPARACION DE LA CARRERA____________")
 
