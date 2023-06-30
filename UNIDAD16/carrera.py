@@ -44,8 +44,8 @@ class Carrera:
                 print("Tipo inválido, se omitirá este vehículo.")
                 continue
 
-            print(lista)
-            return lista
+        print(lista)
+        return lista
 
 
 mouras = Carrera()
