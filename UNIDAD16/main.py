@@ -1,4 +1,4 @@
-from UNIDAD16.carrera import Carrera
+from carrera import *
 
 print("1- PREPARACION DE LA CARRERA____________")
 

@@ -6,13 +6,15 @@ class Camion(Maquina):
         pass
 
     def consumo(self, litros):
-        self.consumo = litros / 2 * 10
+        self.consumo = (litros / 2) * 10
         print(
             "La autonomia del camion con la cantidad de litros que posee es de: ",
             self.consumo,
         )
 
 
-camion = Camion("vw", "azul", 10)
+camion = Camion("fiat", "Verde", 10)
 
-print(camion)
+print(camion.marca, camion.color, camion.litros)
+
+print(camion.consumo(camion.litros))

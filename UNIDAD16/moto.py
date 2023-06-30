@@ -13,4 +13,4 @@ class Moto(Maquina):
 
 moto = Moto("vw", "azul", 10)
 
-print(moto)
+print(moto.consumo(moto.litros))
