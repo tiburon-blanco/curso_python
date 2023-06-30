@@ -1,4 +1,4 @@
-from UNIDAD16POO.modules.maquina import Maquina
+from maquina import *
 
 
 class Moto(Maquina):
