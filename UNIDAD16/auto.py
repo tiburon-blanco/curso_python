@@ -1,21 +1,9 @@
-from maquina import Maquina
+from vehiculo import Vehiculo
 
 
-class Auto(Maquina):
+class Auto(Vehiculo):
+
+    litro_por_metro = 1
+
     def avanzar(self):
-        self.avanzar = True
-
-    def consumo(self, litros):
-        self.consumo = litros * 10
-        print(
-            "Este Auto con la cantidad de litros que posee puede recorrer: ",
-            self.consumo,
-            " ,metros.",
-        )
-
-
-auto = Auto("vw", "azul", 10)
-
-print(auto.color, auto.marca, auto.litros)
-
-print(auto.consumo(auto.litros))
+        self.litros = self.litros - self.litro_por_metro

@@ -1,16 +1,8 @@
-from maquina import *
+from vehiculo import Vehiculo
 
+class Moto(Vehiculo):
 
-class Moto(Maquina):
-    def consumo(self, litros):
-        self.consumo = litros / 0.5 * 10
-        print(
-            "la autonomia de la moto con esta cantida de litros es de: ",
-            self.consumo,
-            "metros.",
-        )
+    litro_por_metro = 0.5
 
-
-moto = Moto("vw", "azul", 10)
-
-print(moto.consumo(moto.litros))
+    def avanzar(self):
+        self.litros = self.litros - self.litro_por_metro

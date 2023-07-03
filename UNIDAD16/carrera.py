@@ -1,54 +1,33 @@
-from maquina import Maquina
+from vehiculo import Vehiculo
 from auto import Auto
 from camion import Camion
 from moto import Moto
 
 
 class Carrera:
-    def __init__(self):
-        self.pista = int(
-            input("ingrese la cantidad de metros que correran los vehiculos: ")
-        )
-        self.cantidad = int(input("Agrege que cantidad de vehiculos correran: "))
-        print(
-            " Se correra una carrera de: ",
-            self.pista,
-            "metros. Y participaran: ",
-            self.cantidad,
-            "de vehiculos.",
-        )
 
-    def tipos(self):
-        lista = []
-        for _ in range(self.cantidad):
-            seleccione = input("ingrese si es un camion, auto o moto: ")
-            if seleccione == "auto":
-                marca = input("ingrese marca: ")
-                color = input("ingrese color: ")
-                litros = int(input("ingrese la cantidad de litros: "))
-                objeto = Auto(marca, color, litros)
-                lista.append(objeto)
-            elif seleccione == "camion":
-                marca = input("ingrese marca: ")
-                color = input("ingrese color: ")
-                litros = int(input("ingrese la cantidad de litros: "))
-                objeto = Camion(marca, color, litros)
-                lista.append(objeto)
-            elif seleccione == "moto":
-                marca = input("ingrese marca: ")
-                color = input("ingrese color: ")
-                litros = int(input("ingrese la cantidad de litros: "))
-                objeto = Moto(marca, color, litros)
-                lista.append(objeto)
-            else:
-                print("Tipo inválido, se omitirá este vehículo.")
-                continue
+    pista = []
+    metros = 100
 
-        print(lista)
-        return lista
+    def addVehiculo(self, vehiculo):
+        self.pista.append(vehiculo)
+
+    def comenzar(self):
+        if self.__tieneVehiculo:
+             for _ in range(self.metros):
+                for i in range(len(self.pista)):
+                    vehiculo = self.pista[i];  
+                    if vehiculo.ver_litros() < 0:
+                      del self.pista[i]      
+                    vehiculo.avanzar()   
+
+        else:
+            print ("La pista no tiene Vehiculos")
+
+    def __tieneVehiculo(self):
+        return self.pista.len > 0
+
+    def verGanadores(self):
+        return self.pista
 
 
-mouras = Carrera()
-
-
-mouras.tipos()
